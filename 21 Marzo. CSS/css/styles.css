@@ -1,0 +1,56 @@
+
+#caja1 {
+    background-color: aquamarine;
+    /* background-image: url("https://media0.giphy.com/media/yYSSBtDgbbRzq/giphy.gif");
+    background-position: center center; 
+    width: 100%;
+    height: 250px;*/
+    margin: 50px;
+    border: solid 20px blue;
+    padding: 50px;
+    width: 500px;
+}
+
+#caja1:hover {
+    height: 500px;
+    width: 500px;
+}
+
+#caja1:active{
+    height: 5000px;
+    width: 5000px;
+}
+
+#caja2 {
+    background-color: brown;
+    border: black;
+    /*  border-style: groove; */
+    margin: 50px;
+    border: solid 20px blue;
+    padding: 50px;
+    width: 500px;
+}
+
+#caja3 {
+    background-color: beige;
+    margin: 50px;
+    border: solid 20px blue;
+    padding: 50px;
+    width: 500px;
+}
+h1 {
+    font-size: 50px;
+}
+
+.h1-clase{
+    font-size: 100px;
+}
+
+#h1-id{
+    font-size: 10px;
+}
+
+#organizadora{
+    display: inline-flex;
+}
+
