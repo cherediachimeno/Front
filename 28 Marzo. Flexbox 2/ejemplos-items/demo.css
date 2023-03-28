@@ -1,0 +1,33 @@
+#contenedor{
+    width: 500px;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+}
+
+#contenedor div{
+   width: 70px;
+   height: 70px; 
+}
+
+#item1 {
+    order: 1;
+    flex-grow: 3;
+}
+#item2 {
+    order: 2;
+    flex-grow: 3;
+}
+#item3 {
+    order: 5;
+    flex-grow: 2;
+}
+#item4 {
+    order: 4;
+    flex-grow: 1;
+}
+#item5 {
+    order: 3;
+    flex-grow: 1;
+}
+
