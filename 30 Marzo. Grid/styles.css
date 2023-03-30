@@ -1,0 +1,46 @@
+#contenedor {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    /*  grid-template-columns: repeat(4, 1fr);*/
+    /* grid-template-rows: 1fr 1fr; */
+    /*justify-items: start;
+    align-items: end; */
+    height: auto;
+    width: auto;
+    justify-items: center;
+    padding: 10px;
+    border: 5px solid black;
+
+}
+
+.item {
+    height: 50px;
+    width: 50px;;
+    border: 2px solid black;
+}
+
+.item1 {
+    background-color: gainsboro;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: 300px;
+    /* ocupame la celda de la columna 1 hasta la 3
+    es decir, ocupame columna 1 y 2. */
+}
+
+.item2 {
+    background-color: rgb(196, 37, 37);
+}
+
+
+.item3 {
+    background-color: rgb(86, 34, 201);
+}
+
+
+.item4 {
+    background-color: rgb(137, 129, 129);
+}
+
+
