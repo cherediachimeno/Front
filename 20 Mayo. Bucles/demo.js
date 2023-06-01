@@ -43,7 +43,7 @@ while (edad >= 18) {
   );
 }
 
-*/ /*
+*/ 
 let pass = 0;
 
 do {
@@ -56,7 +56,7 @@ do {
 } while (pass != true);
 
 alert("login correcto");
-*/
+
 
 let count = 0;
 

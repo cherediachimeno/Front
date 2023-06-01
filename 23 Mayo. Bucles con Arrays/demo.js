@@ -1,7 +1,6 @@
-/*let coches = ["Saab", "Mercedes", "Renault", "Fiat"];
-console.log(coches[0]);
+let coches = ["Saab", "Mercedes", "Renault", "Fiat"];
 
-for (let i = 0; i < coches.length; i++) {
+for (let i = 0; i < coches.lengh; i++) {
   console.log(coches[i]);
 }
 
